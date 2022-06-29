@@ -5,12 +5,19 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageIcon>x96.ico</PackageIcon>
+        <PackageIcon>logo_small.png</PackageIcon>
         <PackageVersion>1.0.1</PackageVersion>
         <Authors>Founntain</Authors>
         <PackageProjectUrl>https://github.com/osu-player/OsuPlayer.Data</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/osu-player/OsuPlayer.Data/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/osu-player/OsuPlayer.Data</RepositoryUrl>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="logo_small.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
 
 </Project>
