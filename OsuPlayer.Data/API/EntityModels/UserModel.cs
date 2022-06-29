@@ -2,7 +2,7 @@
 
 namespace OsuPlayer.Data.API.EntityModels;
 
-public sealed class UserModel : BaseModel
+public class UserModel : BaseModel
 {
     public string Name { get; set; }
     public string? Description { get; set; }
@@ -14,7 +14,7 @@ public sealed class UserModel : BaseModel
     public int Xp { get; set; }
     public int TotalXp { get; set; }
     public bool HasXpLock { get; set; }
-    public int SognsPlayed { get; set; }
+    public int SongsPlayed { get; set; }
     public string? OsuProfile { get; set; }
     
     public bool IsDonator { get; set; }
