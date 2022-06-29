@@ -1,12 +1,9 @@
 name: Nuget-Release
 
 on:
-  create:
-    branches: 
-      - release/**
   push:
-    branches:
-    - master
+    tags:
+      - '*'
     
 jobs:
   build:
