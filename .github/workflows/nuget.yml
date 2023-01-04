@@ -10,7 +10,7 @@ jobs:
 
     env:
       BUILD_CONFIG: 'Release'
-      SOLUTION: 'OsuPlayer.Data.sln'
+      SOLUTION: 'OsuPlayer.Api.Data.sln'
 
     runs-on: ubuntu-latest
 
