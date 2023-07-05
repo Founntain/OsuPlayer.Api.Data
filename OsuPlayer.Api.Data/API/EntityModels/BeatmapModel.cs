@@ -12,4 +12,5 @@ public class BeatmapModel : BaseModel
     public string Creator { get; set; }
     public int TimesPlayed { get; set; }
     public UserModel LastPlayedBy { get; set; }
+    public Tuple<string, int> MostPlayedBy { get; set; }
 }
