@@ -7,6 +7,7 @@ public class CreatePartyModel
     public double Timestamp { get; set; }
     public bool IsPaused { get; set; }
     
+    public Guid? HostId { get; set; }
     public Guid? BeatmapId { get; set; }
     
     public string BeatmapHash { get; set; }
