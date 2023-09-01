@@ -6,11 +6,11 @@
         <Nullable>disable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageIcon>logo_small.png</PackageIcon>
-        <PackageVersion>1.0.9</PackageVersion>
+        <PackageVersion>1.0.10</PackageVersion>
         <Authors>Founntain</Authors>
-        <PackageProjectUrl>https://github.com/osu-player/OsuPlayer.Api.Data</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/osu-player/OsuPlayer.Api.Data/blob/master/LICENSE</PackageLicenseUrl>
-        <RepositoryUrl>https://github.com/osu-player/OsuPlayer.Api.Data</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/founntain/OsuPlayer.Api.Data</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/founntain/OsuPlayer.Api.Data/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/founntain/OsuPlayer.Api.Data</RepositoryUrl>
         <AssemblyName>OsuPlayer.Api.Data</AssemblyName>
         <RootNamespace>OsuPlayer.Api.Data</RootNamespace>
     </PropertyGroup>
@@ -21,5 +21,6 @@
         <PackagePath></PackagePath>
       </None>
     </ItemGroup>
+
 
 </Project>
