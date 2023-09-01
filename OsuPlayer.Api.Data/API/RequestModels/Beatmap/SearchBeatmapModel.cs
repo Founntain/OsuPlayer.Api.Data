@@ -1,4 +1,6 @@
-﻿namespace OsuPlayer.Api.Data.API.RequestModels.Beatmap;
+﻿using OsuPlayer.Api.Data.API.Enums;
+
+namespace OsuPlayer.Api.Data.API.RequestModels.Beatmap;
 
 public class SearchBeatmapModel
 {
@@ -8,4 +10,10 @@ public class SearchBeatmapModel
     public string? Title { get; set; }
     public string? BeatmapSetId { get; set; }
     public string? BeatmapId { get; set; }
+    
+    public FilterCondition ArtistFilterCondition { get; set; }
+    public FilterCondition TitleFilterCondition { get; set; }
+    public FilterCondition BeatmapSetIdFilterCondition { get; set; }
+    public FilterCondition BeatmapIdFilterCondition { get; set; }
+    
 }
