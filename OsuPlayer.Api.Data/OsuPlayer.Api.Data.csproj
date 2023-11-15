@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>disable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageIcon>logo_small.png</PackageIcon>
-        <PackageVersion>1.0.3</PackageVersion>
+        <PackageVersion>1.0.4</PackageVersion>
         <Authors>Founntain</Authors>
         <PackageProjectUrl>https://github.com/osu-player/OsuPlayer.Api.Data</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/osu-player/OsuPlayer.Api.Data/blob/master/LICENSE</PackageLicenseUrl>
